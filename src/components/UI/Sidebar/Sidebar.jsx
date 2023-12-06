@@ -55,7 +55,7 @@ const Sidebar = () => {
       {/* related post card */}
       <RelatedPosts />
       {/*  sidebarImg */}
-      <Image src={sidebarImg} className="min-w-full" height={400} alt='sidebarImg'  />
+      <Image src={sidebarImg} className="min-w-full mt-6" height={400} alt='sidebarImg'  />
     </>
   );
 };

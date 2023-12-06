@@ -5,7 +5,7 @@ import { Grid } from "@mui/material";
 const Home = () => {
   return (
     <>
-      <Grid className="mt-5 mb-32" container spacing={4}>
+      <Grid className="mt-5 mb-32" container spacing={8}>
         <Grid item xs={6} md={8}>
          <LatestNews/>
         </Grid>

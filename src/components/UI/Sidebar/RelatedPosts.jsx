@@ -19,7 +19,7 @@ const RelatedPosts = () => {
   return (
     <>
       <Paper
-        className="shadow-none border-b-2 mt-5 border-[#15151533] "
+        className="shadow-none border-b-2 mt-5 border-[#15151533] pl-0"
         sx={{
           p: 2,
           margin: "auto",
@@ -53,7 +53,7 @@ const RelatedPosts = () => {
         </Grid>
       </Paper>
       <Paper
-        className="shadow-none border-b-2 mt-5 border-[#15151533] "
+        className="shadow-none border-b-2 mt-5 border-[#15151533] pl-0"
         sx={{
           p: 2,
           margin: "auto",
@@ -87,7 +87,7 @@ const RelatedPosts = () => {
         </Grid>
       </Paper>
       <Paper
-        className="shadow-none border-b-2 mt-5 border-[#15151533] "
+        className="shadow-none border-b-2 mt-5 border-[#15151533] pl-0"
         sx={{
           p: 2,
           margin: "auto",
@@ -121,7 +121,7 @@ const RelatedPosts = () => {
         </Grid>
       </Paper>
       <Paper
-        className="shadow-none border-b-2 mt-5 border-[#15151533] "
+        className="shadow-none border-b-2 mt-5 border-[#15151533] pl-0"
         sx={{
           p: 2,
           margin: "auto",
