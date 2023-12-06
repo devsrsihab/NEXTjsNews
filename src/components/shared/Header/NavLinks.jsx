@@ -6,7 +6,7 @@ const NavLinks = () => {
   const pages = [
     {
       name: "Home",
-      link: "/home",
+      link: "/",
     },
     {
       name: "Pages",
@@ -14,7 +14,7 @@ const NavLinks = () => {
     },
     {
       name: "Category",
-      link: "/category",
+      link: "/categories/news",
     },
     {
       name: "News",
