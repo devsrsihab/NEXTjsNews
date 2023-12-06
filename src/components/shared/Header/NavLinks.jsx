@@ -14,7 +14,7 @@ const NavLinks = () => {
     },
     {
       name: "Category",
-      link: "/categories/news",
+      link: "/categories/news?category=all-news",
     },
     {
       name: "News",

@@ -7,10 +7,10 @@ const CategoriesLayout = ({ children }) => {
     <Box>
       <Container>
         <Grid className="mt-5 mb-32" container spacing={8}>
-          <Grid item xs={6} md={3}>
+          <Grid item xs={6} md={4}>
             <CategoryList/>
           </Grid>
-          <Grid item xs={6} md={9}>
+          <Grid item xs={6} md={8}>
             {children}
           </Grid>
         </Grid>
