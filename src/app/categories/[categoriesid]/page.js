@@ -8,6 +8,7 @@ import {
   Card,
 } from "@mui/material";
 import Image from "next/image";
+import Link from "next/link";
 
 const DynamicCateNews = async ({ searchParams }) => {
   const { data: categoriesNews } = await getCategoryNews(searchParams.category);
@@ -24,6 +25,9 @@ const DynamicCateNews = async ({ searchParams }) => {
             <>
               
               <Grid key={news._id} item xs={6}>
+                <Link href={`/${news.category}/${news._id}`} >
+                
+              
                 <Card className="shadow-none border-b-2 border-[#15151533] ">
                   <CardActionArea>
                     <CardMedia sx={{ 
@@ -64,6 +68,7 @@ const DynamicCateNews = async ({ searchParams }) => {
                     </CardContent>
                   </CardActionArea>
                 </Card>
+                </Link>
               </Grid>
             </>
           ))}

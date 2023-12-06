@@ -14,9 +14,9 @@ const CategoryList = async () => {
       <Divider />
       <Stack spacing={2} sx={{ mt: 2.5 }}>
         {categories?.map((category) => (
-          <Button variant="outlined" key={category._id}>
-            <Link href={`/categories/news?category=${category.title.toLowerCase()}`}>{category.title}</Link>
-          </Button>
+          <Link classsName="min-w-full block" href={`/categories/news?category=${category.title.toLowerCase()}`}  key={category._id}>
+            <Button className="w-full" variant="outlined" >{category.title}</Button>
+          </Link>
         ))}
       </Stack>
     </Box>
