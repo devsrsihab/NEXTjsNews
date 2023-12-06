@@ -18,7 +18,7 @@ export default function RootLayout({ children }) {
         {/* header */}
         <Header />
         {/* childrens */}
-        <Container className="min-h-screen">{children}</Container>
+        <Container  maxWidth="xl" className="min-h-screen">{children}</Container>
         {/* footer */}
         <Footer />
       </body>

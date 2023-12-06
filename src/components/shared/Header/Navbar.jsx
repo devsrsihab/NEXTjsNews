@@ -14,7 +14,7 @@ import NavLinks from "./NavLinks";
 
 const Navbar = () => {
   return (
-    <AppBar position="static" className="bg-black" >
+    <AppBar position="static"  >
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           {/* logo */}

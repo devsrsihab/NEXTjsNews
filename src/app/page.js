@@ -1,10 +1,19 @@
-import React from 'react';
+import LatestNews from "@/components/UI/LatestNews/LatestNews";
+import Sidebar from "@/components/UI/Sidebar/Sidebar";
+import { Grid } from "@mui/material";
 
 const Home = () => {
   return (
-    <div>
-      <h2 className='text-3xl text-green-500' >Welcome to home</h2>
-    </div>
+    <>
+      <Grid className="mt-5 mb-32" container spacing={4}>
+        <Grid item xs={6} md={8}>
+         <LatestNews/>
+        </Grid>
+        <Grid item xs={6} md={4}>
+          <Sidebar/>
+        </Grid>
+      </Grid>
+    </>
   );
 };
 
