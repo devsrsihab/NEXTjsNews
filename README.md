@@ -1,6 +1,6 @@
 # News Paper Web
 
-![News Paper Web Screenshot](<screenshot_link_here>)
+![News Paper Web Screenshot](https://i.ibb.co/7KvpbxP/Screenshot-3.png)
 
 ## Description
 This project is a news website built using Next.js and Material UI. It allows users to view the latest news categorized by different topics.
